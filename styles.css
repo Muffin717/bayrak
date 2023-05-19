@@ -1,0 +1,10 @@
+.footer-content {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    background: linear-gradient(45deg, #810081, #c410c4);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+    text-align: center;
+  }
+  
