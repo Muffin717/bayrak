@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Bayrakların Coğrafi Konumları</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    #map {
+      height: 500px;
+    }
+  </style>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+  <h1 class="başlık"><center>Bayrakların Coğrafi Konumları</center></h1>
+  <style>
+    /* Define the gradient background for the title */
+    .başlık {
+  font-family: 'Montserrat', sans-serif;
+  /* Additional CSS styles for the gradient title */
+}
+
+    h1 {
+      background: linear-gradient(45deg, #810081, #c410c4);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      font-size: 48px;
+      font-weight: bold;
+      text-align: center;
+    }
+  </style>
+  
+  <div id="flag-container" style="display: flex; justify-content: center; align-items: center;">
+    <img id="flag-image" src="placeholder.jpg" alt="Flag Image" />
+  </div>
+  
+
+  <div id="map"></div>
+
+  <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+  <script src="script.js"></script>
+</body>
+
+
+  
+
+<div id="feedback-container"></div>
+
+
+
+<head>
+    <style>
+      #map {
+        height: 500px;
+      }
+  
+      #feedback-container {
+        font-size: 18px;
+        margin-top: 10px;
+        padding: 10px;
+        text-align: center;
+        transition: background-color 0.3s;
+      }
+  
+      .correct {
+        background-color: lightgreen;
+      }
+  
+      .incorrect {
+        background-color: tomato;
+      }
+    </style>
+  </head>
+
+  <footer class="footer-content">
+    <center>Ege Göksel (Developer), Mert Gökbay, Kayra Karadağ</center>
+  </footer>
+
+  
+  <body style="background-color: #0e1720;">
+    <!-- Your content here -->
+  </body>
+  
+  <div id="flag-meaning"></div>
+  
+  <div id="flag-image">
+    <style>
+        .flag-image {
+          display: flex;
+          justify-content: center;
+        }
+      </style>
+  </div>
+ 
+  
+  
+  <div id="map" class="map-container"></div>
+  <style>
+    .map-container {
+  background-color: #0e1720;
+}
+
+  </style>
+
+
+
+
+
+
+
+
+</html>
