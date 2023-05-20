@@ -45,6 +45,9 @@ const countryFlags = {
   "Vietnam": "vietnam.png",
   "Zambia": "zambia.png",
   "Zimbabwe": "zimbabwe.png",
+  "Kosovo": "kosovo.png",
+  "Kazakhstan": "kazakhstan.png",
+  "Albania": "albania.png",
   "KKTC": "kktc.png"
   };
   
@@ -129,6 +132,9 @@ const countryCoordinates = {
     "Vietnam": [21.0285, 105.8542],
     "Zambia": [-15.4167, 28.2833],
     "Zimbabwe": [-17.8292, 31.0522],
+    "Kosovo": [42.6026, 20.9030],
+    "Kazakhstan": [48.0196, 66.9237],
+    "Albania": [41.3275, 19.8187],
     "KKTC": [35.1856, 33.3823]
   };
   
